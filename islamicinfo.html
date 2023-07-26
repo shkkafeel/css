@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: sticky;
+		top: 0;
+		cursor: pointer;
+	}
+
+	.background {
+		background: black;
+		background-blend-mode: darken;
+		background-size: cover;
+	}
+
+	.nav-list {
+		width: 70%;
+		display: flex;
+		align-items: center;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.logo img {
+		width: 50px;
+		border-radius: 50px;
+	}
+
+	.nav-list li {
+		list-style: none;
+		padding: 26px 30px;
+	}
+
+	.nav-list li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.nav-list li a:hover {
+		color: grey;
+	}
+
+	.rightnav {
+		width: 30%;
+		text-align: right;
+	}
+
+	#search {
+		padding: 5px;
+		font-size: 17px;
+		border: 2px solid grey;
+		border-radius: 9px;
+	}
+
+	.firstsection {
+		background-color: rgb(160, 153, 87);
+		height: 900px;
+		
+		
+	}
+
+	.secondsection {
+		background-color: rgb(124, 124, 199);
+		height: 500px;
+	}
+
+	.box-main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: black;
+		max-width: 80%;
+		margin: auto;
+		height: 80%;
+	}
+
+	.firsthalf {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.secondhalf {
+		width: 30%;
+	}
+
+	.secondhalf img {
+		width: 70%;
+		border: 4px solid white;
+		border-radius: 150px;
+		display: block;
+		margin: auto;
+	}
+
+	.text-big {
+		font-family: 'Piazzolla', serif;
+		font-weight: bold;
+		font-size: 35px;
+	}
+
+	.text-small {
+		font-size: 18px;
+	}
+
+	.btn {
+		padding: 8px 20px;
+		margin: 7px 0;
+		border: 2px solid white;
+		border-radius: 8px;
+		background: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	.btn-sm {
+		padding: 6px 10px;
+		vertical-align: middle;
+	}
+
+	.section {
+		height: 700px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 100%;
+		margin: auto;
+		background-color: rgb(197, 134, 134);
+	}
+
+	.section-Left {
+		flex-direction: row-reverse;
+	}
+
+	.paras {
+		padding: 0px 90px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.text-footer {
+		text-align: center;
+		padding: 30px 0;
+		font-family: 'Ubuntu', sans-serif;
+		display: flex;
+		justify-content: center;
+		color: white;
+	}
+
+	#header {
+        background-color: #000000;
+        color: #ffffff; }
+
+    tr :hover {
+        background-color: grey;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0);
+        /* font-family: 'Courier New', Courier, monospace; */
+        color: rgb(239, 222, 222);
+        
+    }
+    
+    table {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 900px;
+        height: 50px;
+	}
+
+
+
+    /*media query*/
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="kafeel.jpg">
+
+			</div>
+			<li><a href="#part1"> <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">How Do We Know <br> The Quran Hasn’t Changed</span></a></li>
+			<li><a href="#part2"> <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">The Era of the <br> First Caliph</span></a></li>
+			<li><a href="#part3"> <span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">The  Era of the <br> Third Caliph</span></a></li>
+		    
+		</ul>
+	
+	
+
+		<!-- <div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div> -->
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="part1">
+					How Do We Know The Quran Hasn’t Changed?
+				</h1>
+				
+				<p class="text-small"> <br>
+					How can we be sure that the Qur’an we have today is the same Qur’an that the Prophet Muhammad ﷺ taught to his companions 1400 years ago? 
+					This is a central question to the legitimacy of the religion of Islam, and to answer it, we need to know how the Qur’an was given to the Prophet ﷺ,
+					preserved by his companions, and distributed around the Muslim world. This is a story of language, history, and the commitment of an entire civilisation to preserving the words of God.
+				<br> <br>
+					<strong>The Era of the Prophet Muhammad ﷺ</strong> <br>
+				<span style="font-size: medium;">
+					According to the Muslim understanding, the Qur’an was revealed to the Prophet Muhammad ﷺ over 23 years, from the age of 40 to his death at the age of 63. Over those 23 years, he received the revelation from God in a number of ways. Most commonly, it was spoken to him directly by the Angel Gabriel, but at other times it came during his dreams, and on a number of occasions, it even came to him directly from God, and he experienced this as the sound of a heavy bell, after which the words of the revelation were made clear to him. Throughout those 23 years, the Prophet ﷺ endeavoured to share the revelation with those around him as soon as it came. He did this verbally, as he couldn’t read or write, but he strongly encouraged others around him to write down the revelation, as well as memorise it. This was the basis of how Muslims believe the Qur’an became preserved, not purely through written or oral means, but with both strengthening the other. The companions around him constantly strove to memorise the verses, with many eventually memorising the entire book, and simultaneously wrote these verses on parchment, bone, wood, stone, basically whatever they had around them. Over time at least 65 companions functioned as scribes for the Prophet ﷺ, who eventually established a school in Madinah dedicated to teaching 900 of his companions to read and write. However, the dialect of the Quraishi tribe that the Prophet ﷺ spoke in was not the only dialect of the Arabian peninsula, and as the religion was adopted by a growing number of tribes, they began to struggle with understanding the Qur’an. To overcome this, the Prophet ﷺ was given permission to teach the Qur’an in 7 of the main dialects in the region, allowing the message to be understood more widely. These dialects didn’t affect the written records, as they were only different when the Qur’an was actually vocalised. This was the state of the Qur’an at the death of the Prophet ﷺ. Hundreds of companions who had memorised the complete Qur’an in 7 official dialects, all of which were considered valid ways of reciting the Qur’an, as well as an incredible amount of written records that were held by the Prophets companions throughout Madinah and beyond. The placing of each verse within each chapter had been established by the Prophet ﷺ, but because each chapter functions as an independent unit, the companions had different ways of ordering the chapters themselves within the book as a whole.
+					</span>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="part2">The Era of Abu Bakr, The First Caliph</h1>
+				<p class="text-small">
+				<br> <br>
+					<p class="sectionSubTag text-small">
+						With the death of the Prophet ﷺ, the leadership of the Muslim community passed to his close friend Abu Bakr, who was quickly beset by conflict on the outskirts of the now considerably large Muslim state. This conflict led to the battle of Yamamah, which saw many of those who had memorised the Qur’an killed. Whilst many huffaz remained, it highlighted the critical issue of preserving the entirety of the Qur’an, which was in danger if the memorisers were all killed. Abu Bakr decided to appoint Zaid ibn Thabit to compile all of the written verses of the Qur’an into one collection, using only those verses which had been written in the presence of the Prophet ﷺ himself. These manuscripts would then be verified by those who had memorised the entire Qur’an at the hands of the Prophet himself. This was where the important concept of tawatur, or multiply attested sources, came into play. In order to be 100% sure that a verse of the Quran was in fact a verse of the Quran, it needed to have multiple independent chains of transmissions from different memorisers of the Quran. In this way, any verse that came to Zaid could be corroborated through both written and oral means, essentially guaranteeing that every single verse put in the final book was conveyed by the Prophet ﷺ. Once this had been completed by Zaid, he penned the completed text which became known as the Suhuf, and gave it to Abu Bakr. This was now the official text of the Qur’an.
+					</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big" id="part3">The Era of Uthman, The Third Caliph</h1> 
+			<br><br>
+			
+			<p class="sectionSubTag text-small">
+				With the death of Abu Bakr it was given first to Umar, and then to the widow of the Prophet ﷺ, Hafsa, when Umar himself passed away. Throughout this time the religion had spread incredibly rapidly, now reaching from Libya in the West to Khorasan in the East. With this influx of non-Arabs who had embraced Islam, those 7 official dialects began to cause some issues. Variant readings were beginning to crop up, and in order to stamp out the issue, the then Caliph ‘Uthman decided that the original Quraishi dialect would become the official reading of the Qur’an. He appointed a committee of 12 companions to essentially repeat the process of Zaid ibn Thabit, gathering all of the primary sources, rectifying any differences, and confirming them with those who had memorised the text orally. Once this had been completed, he sent for the original suhuf, which was held by Hafsa, and compared the two collections for any differences. Once completed, this final copy was read out to ‘Uthman and the companions, who all agreed upon its accuracy, and decided to burn the original sources in order to avoid any future divergence with the text. This text is referred to as the ‘Uthmani Mushaf, and it was the first written Qur’an to be sent throughout the Muslim world with accompanying reciters. It’s considered to be exactly the same as the Qur’an we read today, with only one pretty big difference. It didn’t include any skeletal or diacritical marks, which are essential in differentiating different words which otherwise look exactly the same. For example, this is the word for elephant, fiil, and this is the verb to kiss something, qabbal. However when you remove the markings, they look exactly the same. This was the way the Mushaf was written. Now whilst these diacritical marks weren’t invented until 30 years after the death of Uthman, these markings, what are called skeletal dots, were known to the Arabs at the time of ‘Uthman, but he must have intentionally decided not to include them in his original Mushaf. Whilst we don’t really know why, one possible reason was that he wanted to ensure that the Qur’an would always be taught and preserved through both written and oral methods. And that’s where these official teachers that were sent out with the Suhuf came into play. Without an official teacher guiding them, students who studied the Qur’an wouldn’t be able to read the text, but with both the written text and a spoken reciter, the Qur’an was now completely standardised, and able to be transmitted across the Muslim world. Over time however, the usefulness of this approach began to diminish, and within the caliphate of ‘Uthman, these skeletal dots began to be used in new copies of the Mushaf, and this quickly became the standard for all personal copies of the Qur’an. So apart from the development of new calligraphy styles and publishing methods, every Qur’an from then until today has been exactly the same, and every hafiz of the Qur’an has learned the exact same book by heart. That is a 1400 year mutawatir chain of people who learnt the same book from their teachers, and taught the same book to their students, which is why until this very day we can open up a copy of the Qur’an, and know with confidence that this is the same special book that was taught by the Prophet ﷺ himself.
+</p>
+
+
+		</div>
+		
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright © shkkafeel - All rights are reserved
+		</p>
+
+	</footer>
+</body>
+
+</html>
+
+</body>
+</html>
